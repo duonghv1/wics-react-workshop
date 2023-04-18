@@ -5,9 +5,9 @@ export default function Projects() {
 
     const project = {
         imageUrl: "src/assets/adalovelace2.jpeg",
+        imageAlt: " A picture of Ada Lovelace",
         title: "My Project",
         description: "A description of my project",
-        tech: "React, Node.js, MongoDB",
         likes: 42,
       };
 

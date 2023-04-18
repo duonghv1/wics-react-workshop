@@ -10,13 +10,13 @@ export default function Navbar() {
         <Nav>
         <ul>
             <li>
-              <NavLink to="/home" activeStyle>Home</NavLink>
+              <NavLink to="/home">Home</NavLink>
             </li>
             <li>
-              <NavLink to="/about" activeStyle>About</NavLink>
+              <NavLink to="/about">About</NavLink>
             </li>
             <li>
-              <NavLink to="/projects" activeStyle>Projects</NavLink>
+              <NavLink to="/projects">Projects</NavLink>
             </li>
         </ul>
         </Nav>

@@ -1,0 +1,34 @@
+.project-card {
+    width: 300px;
+    height: 400px;
+    background-color: lightgray;
+    border-radius: 20px;
+    padding: 40px;
+    cursor: pointer;
+}
+
+.card-img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-title {
+    text-align: center;
+}
+
+.card-desc {
+    text-align: center;
+}
+
+.project-actions {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px;
+  }
+
+.like-count {
+font-size: 0.9rem;
+font-weight: bold;
+}

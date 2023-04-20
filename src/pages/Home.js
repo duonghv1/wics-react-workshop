@@ -1,5 +1,7 @@
 // src/components/Home.js
 
+import './Home.css'
+
 export default function Home() {
     return(
         <div className="home-container">

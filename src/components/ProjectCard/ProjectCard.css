@@ -1,9 +1,20 @@
 .project-card {
     width: 300px;
+    height: 250px;
+    background-color: lightgray;
+    border-radius: 20px;
+    padding: 40px;
+    margin: 40px;
+    cursor: pointer;
+}
+
+.expanded-project-card {
+    width: 300px;
     height: 400px;
     background-color: lightgray;
     border-radius: 20px;
     padding: 40px;
+    margin: 40px;
     cursor: pointer;
 }
 

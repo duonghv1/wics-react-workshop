@@ -16,7 +16,7 @@ export const ProjectCard = (project) => {
     };
 
     return (
-    <div className="project-card">
+    <div className={isExpanded ? 'expanded-project-card' : 'project-card'}>
 
         <div onClick={toggleExpansion}>
             <img src={project.imageUrl} 

@@ -7,20 +7,6 @@ export const Nav = styled.nav`
 `;
 
 
-export const NavMenu = styled.div`
-  display: flex;
-  align-items: center;
-  margin-right: -24px;
-  /* Second Nav */
-  /* margin-right: 24px; */
-  /* Third Nav */
-  /* width: 100vw;
-  white-space: nowrap; */
-  @media screen and (max-width: 768px) {
-    display: none;
-  }
-`;
-
 export const NavLink = styled(Link)`
   color: #808080;
   display: flex;

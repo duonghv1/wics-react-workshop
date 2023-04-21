@@ -2,7 +2,7 @@ import { useState } from 'react';
 
 import './ProjectCard.css'
 
-export const ProjectCard = (project) => {
+export const ProjectCard = ({project}) => {
 
     const [isExpanded, setIsExpanded] = useState(false);
     const [likes, setLikes] = useState(project.likes);
@@ -16,8 +16,8 @@ export const ProjectCard = (project) => {
     };
 
     return (
-    <div className={isExpanded ? 'expanded-project-card' : 'project-card'}>
-
+    // <div className={isExpanded ? 'expanded-project-card' : 'project-card'}>
+    <div className='project-card'>
         <div onClick={toggleExpansion}>
             <img src={project.imageUrl} 
                 className="card-img"

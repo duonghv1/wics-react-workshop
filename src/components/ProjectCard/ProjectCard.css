@@ -1,27 +1,19 @@
 .project-card {
     width: 300px;
-    height: 250px;
+    height: auto;
+    transition: all 0.3s ease;
     background-color: lightgray;
     border-radius: 20px;
     padding: 40px;
-    margin: 40px;
+    margin: 50px;
     cursor: pointer;
-}
-
-.expanded-project-card {
-    width: 300px;
-    height: 400px;
-    background-color: lightgray;
-    border-radius: 20px;
-    padding: 40px;
-    margin: 40px;
-    cursor: pointer;
+    justify-self: center;
+    align-self: center;
 }
 
 .card-img {
     width: 300px;
     height: 200px;
-    object-fit: cover;
 }
 
 .card-title {
@@ -30,16 +22,21 @@
 
 .card-desc {
     text-align: center;
+    margin-bottom: 20px;
 }
 
 .project-actions {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 16px;
   }
 
 .like-count {
 font-size: 0.9rem;
 font-weight: bold;
+}
+
+button {
+    background-color: white;
+    border-width: 0px;
 }
